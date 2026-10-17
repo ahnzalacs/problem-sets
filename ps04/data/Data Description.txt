@@ -1,0 +1,17 @@
+| Variable| Description|
+|--------------------------|----------------------------------------------------------------------------------------------------------------|
+| id                      | unique identifier for each individual|
+| name                    | first and last name|
+| sex                     | sex (male or female)|
+| age                     | age in years|
+| age_cat                 | age category (less than 25, 25-45, greater than 45)|
+| race                    | race (African-American, Asian, Caucasian, Hispanic, Native American, Other)|
+| juv_fel_count           | juvenile felony count|
+| juv_misd_count          | juvenile misdemeanor count|
+| juv_other_count         | juvenile other offenses count|
+| priors_count            | prior offenses count|
+| c_jail_days		  | days between jail exit date for original crime and jail entry date for original crime
+| c_charge_degree         | charge degree of original crime, M is misdemeanors, F is felony
+| r_days_from_arrest      | number of days between follow-up crime and arrest date|
+| custody_days            | days between date on which individual was released from custody and date on which individual was brought into custody|
+| two_year_recid          | binary indicator of recidivation within two years of scoring (1=individual recidivated, 0=individual did not recidivate)|
